@@ -1,0 +1,16 @@
+<duobao>
+    <update>
+        <android>
+            <versionCode>2</versionCode>
+            <versionName>1.0.0</versionName>
+            <downloadUrl>http://www.baidu.com</downloadUrl>
+            <updateLog>
+                <![CDATA[
+                版本信息： Moudle for Android v1.0.0
+                版本更新日志： XXXXXXXXXXXXXX
+                安装包大小：2.37MB
+                ]]>
+            </updateLog>
+        </android>
+    </update>
+</duobao>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/graywhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/push_set_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="@dimen/space_18"
+        android:background="@drawable/border_white_hui"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/space_18"
+            android:text="推送设置"
+            android:textColor="@color/setting_text"
+            android:textSize="@dimen/space_16" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"></View>
+
+        <CheckBox
+            android:id="@+id/push_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_20"
+            android:button="@drawable/pref_checkbox_selector_style" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/voice_toast_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="@dimen/space_18"
+        android:background="@drawable/border_white_hui"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/space_18"
+            android:text="声音提示"
+            android:textColor="@color/setting_text"
+            android:textSize="@dimen/space_16" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"></View>
+
+        <CheckBox
+            android:id="@+id/voice_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_20"
+            android:button="@drawable/pref_checkbox_selector_style" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vibration_toast_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="@dimen/space_18"
+        android:background="@drawable/border_white_hui"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/space_18"
+            android:text="震动提示"
+            android:textColor="@color/setting_text"
+            android:textSize="@dimen/space_16" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"></View>
+
+        <CheckBox
+            android:id="@+id/vibration_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_20"
+            android:button="@drawable/pref_checkbox_selector_style" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/checkup_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="@dimen/space_18"
+        android:background="@drawable/border_white_hui"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/space_18"
+            android:text="自动检查更新"
+            android:textColor="@color/setting_text"
+            android:textSize="@dimen/space_16" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"></View>
+
+        <CheckBox
+            android:id="@+id/checkup_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_20"
+            android:button="@drawable/pref_checkbox_selector_style" />
+    </LinearLayout>
+</LinearLayout>

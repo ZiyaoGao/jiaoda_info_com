@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/graywhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_20"
+        android:layout_marginRight="@dimen/space_20"
+        android:layout_marginTop="@dimen/space_10"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner_feed_back"
+            style="@style/spinner_style"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawSelectorOnTop="true"
+            android:spinnerMode="dropdown"></Spinner>
+
+        <EditText
+            android:id="@+id/message_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="@dimen/space_5"
+            android:gravity="top|left"
+            android:hint="@string/feed_back_hint"
+            android:textColorHint="@color/home_solid" />
+
+        <EditText
+            android:id="@+id/email_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_5"
+            android:hint="@string/feed_back_email"
+            android:textColorHint="@color/home_solid" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_feed_back"
+        style="@style/login_button"
+        android:background="@drawable/btn_global_red"
+        android:text="@string/activity_feedback" />
+</LinearLayout>

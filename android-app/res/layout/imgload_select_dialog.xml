@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/time_button_backgroud_normal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/oneBtnInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_2"
+            android:background="@drawable/time_select_title_bg"
+            android:gravity="center"
+            android:padding="@dimen/space_8"
+            android:text="@string/img_load_title"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_size_18" />
+
+        <RadioGroup
+            android:id="@+id/rg_img_load"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_4"
+            android:layout_marginRight="@dimen/space_4">
+
+            <RadioButton
+                android:id="@+id/rb_auto"
+                style="@style/radio_img_load"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/item_bg_state"
+                android:drawableRight="@drawable/radio_gender"
+                android:padding="@dimen/space_12"
+                android:text="@string/auto_img_load"
+                android:textColor="@color/theme_black" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/space_05"
+                android:layout_marginLeft="@dimen/space_12"
+                android:layout_marginRight="@dimen/space_12" />
+
+            <RadioButton
+                android:id="@+id/rb_high"
+                style="@style/radio_img_load"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/item_bg_state"
+                android:button="@null"
+                android:drawableRight="@drawable/radio_gender"
+                android:padding="@dimen/space_12"
+                android:text="@string/high_img_load"
+                android:textColor="@color/theme_black" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/space_05"
+                android:layout_marginLeft="@dimen/space_12"
+                android:layout_marginRight="@dimen/space_12" />
+
+            <RadioButton
+                android:id="@+id/rb_normal"
+                style="@style/radio_img_load"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/item_bg_state"
+                android:button="@null"
+                android:drawableRight="@drawable/radio_gender"
+                android:padding="@dimen/space_12"
+                android:singleLine="true"
+                android:text="@string/normal_img_load"
+                android:textColor="@color/theme_black" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

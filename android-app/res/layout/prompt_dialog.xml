@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/time_button_backgroud_normal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/oneBtnInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_2"
+                android:padding="@dimen/space_8"
+                android:background="@drawable/time_select_title_bg"
+                android:gravity="center"
+                android:text="@string/app_prompt"
+                android:textColor="#fff"
+                android:textSize="@dimen/text_size_18" />
+
+            <TextView
+                android:id="@+id/prompt_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/theme_black"
+                android:textSize="@dimen/text_size_16"
+                android:padding="@dimen/space_25"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_2"
+            android:background="@color/graywhite"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_5" >
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_5"
+                android:padding="@dimen/space_8"
+                android:layout_weight="1"
+                android:background="@drawable/time_button_selector"
+                android:text="@string/app_cancel"
+                android:textColor="@color/theme_black" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_5"
+                android:padding="@dimen/space_8"
+                android:layout_weight="1"
+                android:background="@drawable/time_button_selector"
+                android:text="@string/app_ok"
+                android:textColor="@color/theme_black" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

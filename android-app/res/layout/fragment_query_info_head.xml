@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/graywhite"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/space_8"
+    android:paddingTop="@dimen/space_8">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="姓名"
+            android:textColor="@color/setting_text"
+            android:textSize="@dimen/space_18" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="性别"
+            android:textColor="@color/setting_text"
+            android:textSize="@dimen/space_18" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="身份证号"
+            android:textColor="@color/setting_text"
+            android:textSize="@dimen/space_18" />
+    </LinearLayout>
+</LinearLayout>

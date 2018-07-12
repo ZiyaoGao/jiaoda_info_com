@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="feed_back">
+        <item>提建议</item>
+        <item>有错误</item>
+        <item>不会用</item>
+        <item>投诉</item>
+    </string-array>
+    <string-array name="spingarr">
+        <item>会议</item>
+        <item>通知</item>
+        <item>监考</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="college">
+        <item>土木工程学院</item>
+        <item>河海学院</item>
+        <item>交通运输学院</item>
+        <item>机电与车辆工程学院</item>
+        <item>航运与船舶工程学院</item>
+        <item>建筑与城市规划学院</item>
+        <item>信息科学与工程学院</item>
+        <item>材料科学与工程学院</item>
+    </string-array>
+    <string-array name="position">
+        <item>党总支书记</item>
+        <item>党总支副书记</item>
+        <item>院长</item>
+        <item>副院长</item>
+        <item>院级秘书</item>
+        <item>普通教师</item>
+    </string-array>
+</resources>

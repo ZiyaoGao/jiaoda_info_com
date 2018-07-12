@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <dimen name="dialog_prompt_width">250dip</dimen>
+
+    <!-- GreenDroid UI Tool -->
+    <dimen name="gd_arrow_offset">5dp</dimen>
+
+    <!-- ZHCNNB APP -->
+    <dimen name="text_size_32">32.0dip</dimen>
+    <dimen name="text_size_31">31.0dip</dimen>
+    <dimen name="text_size_30">30.0dip</dimen>
+    <dimen name="text_size_29">29.0dip</dimen>
+    <dimen name="text_size_28">28.0dip</dimen>
+    <dimen name="text_size_27">27.0dip</dimen>
+    <dimen name="text_size_26">26.0dip</dimen>
+    <dimen name="text_size_25">25.0dip</dimen>
+    <dimen name="text_size_24">24.0dip</dimen>
+    <dimen name="text_size_23">23.0dip</dimen>
+    <dimen name="text_size_22">22.0dip</dimen>
+    <dimen name="text_size_21">21.0dip</dimen>
+    <dimen name="text_size_20">20.0dip</dimen>
+    <dimen name="text_size_19">19.0dip</dimen>
+    <dimen name="text_size_18">18.0dip</dimen>
+    <dimen name="text_size_17">17.0dip</dimen>
+    <dimen name="text_size_16">16.0dip</dimen>
+    <dimen name="text_size_15">15.0dip</dimen>
+    <dimen name="text_size_14">14.0dip</dimen>
+    <dimen name="text_size_13">13.0dip</dimen>
+    <dimen name="text_size_12">12.0dip</dimen>
+    <dimen name="text_size_11">11.0dip</dimen>
+    <dimen name="text_size_10">10.0dip</dimen>
+    <dimen name="text_size_9">9.0dip</dimen>
+    <dimen name="text_size_8">8.0dip</dimen>
+    <dimen name="text_size_7">7.0dip</dimen>
+
+    <dimen name="space_180">180.0dip</dimen>
+    <dimen name="space_130">130.0dip</dimen>
+    <dimen name="space_120">120.0dip</dimen>
+    <dimen name="space_100">100.0dip</dimen>
+    <dimen name="space_75">75.0dip</dimen>
+    <dimen name="space_50">50.0dip</dimen>
+    <dimen name="space_45">45.0dip</dimen>
+    <dimen name="space_30">30.0dip</dimen>
+    <dimen name="space_29">29.0dip</dimen>
+    <dimen name="space_28">28.0dip</dimen>
+    <dimen name="space_27">27.0dip</dimen>
+    <dimen name="space_26">26.0dip</dimen>
+    <dimen name="space_25">25.0dip</dimen>
+    <dimen name="space_24">24.0dip</dimen>
+    <dimen name="space_23">23.0dip</dimen>
+    <dimen name="space_22">22.0dip</dimen>
+    <dimen name="space_21">21.0dip</dimen>
+    <dimen name="space_20">20.0dip</dimen>
+    <dimen name="space_19">19.0dip</dimen>
+    <dimen name="space_18">18.0dip</dimen>
+    <dimen name="space_17">17.0dip</dimen>
+    <dimen name="space_16">16.0dip</dimen>
+    <dimen name="space_15">15.0dip</dimen>
+    <dimen name="space_14">14.0dip</dimen>
+    <dimen name="space_13">13.0dip</dimen>
+    <dimen name="space_12">12.0dip</dimen>
+    <dimen name="space_11">11.0dip</dimen>
+    <dimen name="space_10">10.0dip</dimen>
+    <dimen name="space_9">9.0dip</dimen>
+    <dimen name="space_8">8.0dip</dimen>
+    <dimen name="space_7">7.0dip</dimen>
+    <dimen name="space_6">6.0dip</dimen>
+    <dimen name="space_5">5.0dip</dimen>
+    <dimen name="space_4">4.0dip</dimen>
+    <dimen name="space_3">3.0dip</dimen>
+    <dimen name="space_2">2.0dip</dimen>
+    <dimen name="space_1">1.0dip</dimen>
+    <dimen name="space_05">0.5dip</dimen>
+    <dimen name="timeset_btn_width">100dip</dimen>
+    <dimen name="timeset_btn_height">40dip</dimen>
+
+    <dimen name="head_height">65dip</dimen>
+    <dimen name="home_icon_list">28dip</dimen>
+    <dimen name="location_show_height">24dip</dimen>
+    <dimen name="sales_campaign">180dip</dimen>
+    <dimen name="look_video">200dip</dimen>
+    <dimen name="market_speaker_height">32dip</dimen>
+    <dimen name="market_grade_height">50dip</dimen>
+
+    <dimen name="mine_bg_height">160dip</dimen>
+    <dimen name="mine_head">80dip</dimen>
+    <dimen name="mine_border_width">2dip</dimen>
+    <dimen name="mine_listview_height">50dip</dimen>
+    <dimen name="mine_item_icon_wh">20dip</dimen>
+    <dimen name="mine_head_trans_height">50dip</dimen>
+
+    <dimen name="info_listview_height">200dip</dimen>
+    <dimen name="info_listview_image_height">160dip</dimen>
+
+    <dimen name="list_supermarket_wh">90dip</dimen>
+
+    <dimen name="head_icon_logo_wh">40dip</dimen>
+    <dimen name="head_icon_wh">28dip</dimen>
+
+
+    <dimen name="head_search_height">35dip</dimen>
+
+    <dimen name="left_fragment_item_height">55dip</dimen>
+    <dimen name="left_fragment_item_icon_wh">25dip</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="slidingmenu_offset">100dp</dimen>
+    <dimen name="shadow_width">5dp</dimen>
+    <dimen name="fragment_tab_height">38dp</dimen>
+
+    <dimen name="home_banner_height">130dip</dimen>
+    <dimen name="home_banner_large_height">180dip</dimen>
+    <dimen name="home_block_height">100dip</dimen>
+    <dimen name="home_block_image_wh">50dip</dimen>
+
+    <dimen name="login_bg_height">200dip</dimen>
+    <dimen name="login_icon_wh">150dip</dimen>
+
+    <dimen name="order_list_title_width">80dip</dimen>
+    <dimen name="order_list_checkbox_wh">30dip</dimen>
+    <dimen name="order_list_tab_height">40dip</dimen>
+
+    <dimen name="checkbox_show_hide_pwd_height">28dip</dimen>
+    <dimen name="checkbox_show_hide_pwd_width">60dip</dimen>
+
+    <dimen name="checkbox_switch_width">60dip</dimen>
+
+    <dimen name="tab_icon_wh">25dip</dimen>
+    <dimen name="tab_height">65dip</dimen>
+    <dimen name="tab_lay">60dip</dimen>
+    <dimen name="star_small_height">18dip</dimen>
+    <dimen name="star_big_height">25dip</dimen>
+
+    <dimen name="form_title_width">90dip</dimen>
+    <dimen name="form_item_height">50dip</dimen>
+
+    <dimen name="product_image">70dip</dimen>
+
+    <dimen name="product_minus_add_wh">30dip</dimen>
+
+    <dimen name="cart_preview_arrow_wh">10dip</dimen>
+    <dimen name="cart_footer_height">45dip</dimen>
+
+    <dimen name="market_image_wh">100dip</dimen>
+
+    <dimen name="product_detail_image_height_large">400dip</dimen>
+    <dimen name="product_detail_image_height">200dip</dimen>
+
+    <!-- 下拉刷新字体 -->
+    <dimen name="picture_pull_to_refresh_loading_text_size">14dp</dimen>
+    <dimen name="picture_pull_to_refresh_last_update_time_text_size">10dp</dimen>
+    <dimen name="picture_pull_to_refresh_last_update_time_top_margin">6dp</dimen>
+    <dimen name="picture_pull_to_refresh_footer_height">40dp</dimen>
+
+    <dimen name="product_delete_height">20dip</dimen>
+
+    <dimen name="pay_icon_wh">42dip</dimen>
+    <dimen name="order_success_icon_wh">60dip</dimen>
+    <dimen name="order_detail_icon_wh">30dip</dimen>
+    <dimen name="order_list_icon_wh">28dip</dimen>
+
+    <dimen name="gender_right_icon">8dip</dimen>
+    <dimen name="status_bar_height">3dip</dimen>
+</resources>

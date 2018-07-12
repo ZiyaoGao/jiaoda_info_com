@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_white_hui"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/space_10"
+    android:paddingTop="@dimen/space_10">
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="发送者"
+        android:textColor="@color/setting_text"
+        android:textSize="@dimen/space_18" />
+
+    <TextView
+        android:layout_marginLeft="@dimen/text_size_14"
+        android:ellipsize="end"
+        android:id="@+id/tv_info_type"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:lines="1"
+        android:text="信息类型阿斯蒂芬 "
+        android:textColor="@color/setting_text"
+        android:textSize="@dimen/space_18" />
+    <TextView
+
+        android:layout_marginLeft="@dimen/space_30"
+        android:id="@+id/tv_info_date"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="发送时间"
+        android:textColor="@color/setting_text"
+        android:textSize="@dimen/space_18" />
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="@dimen/space_5"
+    android:background="@color/graywhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_10"
+        android:background="@drawable/login_text_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名        "
+                android:textColor="@color/theme_black"
+                android:textSize="@dimen/text_size_18" />
+
+            <TextView
+                android:id="@+id/et_name"
+                style="@style/edit_style"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/space_18"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/space_10"
+                android:enabled="false"
+                android:hint="请选择收件人"
+                android:maxLength="30"
+                android:textColor="@color/theme_black"
+                android:textColorHint="@color/login_edit_color" />
+
+            <TextView
+                android:id="@+id/tv_add"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="+"
+                android:textColor="@color/orange"
+                android:textSize="35dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="信息类型"
+                android:textColor="@color/theme_black"
+                android:textSize="@dimen/text_size_18" />
+            <Spinner
+                android:layout_marginLeft="@dimen/text_size_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/info_spinner2"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:gravity="top"
+        android:id="@+id/et_content"
+        style="@style/edit_style"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="@dimen/space_18"
+        android:layout_marginRight="@dimen/space_18"
+        android:layout_marginTop="@dimen/space_20"
+        android:drawablePadding="@dimen/space_10"
+        android:hint="请输入信息内容"
+        android:maxLength="30"
+        android:textColor="@color/theme_black"
+        android:textColorHint="@color/login_edit_color" />
+    <Button
+        android:id="@+id/btn_send"
+        style="@style/login_button"
+        android:layout_marginBottom="@dimen/space_18"
+        android:background="@drawable/btn_global_red"
+        android:text="发送" />
+
+</LinearLayout>

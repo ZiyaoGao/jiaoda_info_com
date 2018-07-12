@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/graywhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/space_30">
+
+        <ImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/space_10"
+            android:scaleType="centerCrop"
+            android:src="@drawable/no_photo_640_480" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_15"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                tools:text="赵三" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:text="状态：已登录" />
+            <TextView
+                android:id="@+id/tv_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                tools:text="状态：已登录" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/space_5"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_my_collection"
+            style="@style/login_button"
+            android:layout_marginBottom="@dimen/space_18"
+            android:background="@drawable/btn_global_red"
+            android:text="我收藏的信息" />
+
+        <Button
+            android:id="@+id/btn_sign_in"
+            style="@style/login_button"
+            android:layout_marginBottom="@dimen/space_18"
+            android:background="@drawable/btn_global_red"
+            android:text="我标记的信息" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"></View>
+
+        <Button
+            android:id="@+id/btn_out"
+            style="@style/login_button"
+            android:layout_marginBottom="@dimen/space_18"
+            android:background="@drawable/btn_global_red"
+            android:text="退出登录" />
+    </LinearLayout>
+
+
+</LinearLayout>

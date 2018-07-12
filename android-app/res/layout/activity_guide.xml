@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="@dimen/space_20"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/space_75"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/start_Button"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_45"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_guide_in"
+            android:text="@string/app_enter"
+            android:paddingTop="@dimen/space_10"
+            android:paddingBottom="@dimen/space_10"
+            android:paddingLeft="@dimen/space_15"
+            android:paddingRight="@dimen/space_15"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/theme_color"
+            android:visibility="invisible" />
+
+        <!--TODO 因图片下面有圆点，故隐藏-->
+        <LinearLayout
+            android:id="@+id/indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dip"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

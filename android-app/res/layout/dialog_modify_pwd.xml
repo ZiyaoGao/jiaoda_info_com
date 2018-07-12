@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_18"
+        android:background="@drawable/login_text_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_pwd"
+            style="@style/edit_style"
+            android:drawablePadding="@dimen/space_10"
+            android:hint="请输入密码"
+            android:textColor="@color/theme_black"
+            android:textColorHint="@color/login_edit_color" />
+        <EditText
+            android:id="@+id/et_new_pwd"
+            style="@style/edit_style"
+            android:drawablePadding="@dimen/space_10"
+            android:hint="输入新密码"
+            android:maxLength="11"
+            android:textColor="@color/theme_black"
+            android:textColorHint="@color/login_edit_color" />
+
+        <EditText
+            android:id="@+id/et_new_pwd_again"
+            style="@style/edit_style"
+            android:drawablePadding="@dimen/space_10"
+            android:hint="再次输入新密码"
+            android:maxLength="11"
+            android:textColor="@color/theme_black"
+            android:textColorHint="@color/login_edit_color" />
+
+
+
+        <Button
+                android:id="@+id/btn_confirm"
+            style="@style/login_button"
+            android:layout_width="wrap_content"
+            android:layout_margin="@dimen/space_15"
+            android:background="@drawable/btn_global_red"
+            android:text="确定" />
+    </LinearLayout>
+
+
+</LinearLayout>

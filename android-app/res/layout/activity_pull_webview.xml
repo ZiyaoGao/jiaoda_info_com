@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/graywhite"
+    android:orientation="vertical">
+
+    <com.moudle.app.widget.EmptyLayout
+        android:id="@+id/error_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.moudle.app.widget.EmptyLayout>
+
+    <com.fysports.app.widget.pulltorefresh.PullToRefreshWebView
+        android:id="@+id/fragment_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:visibility="visible"></com.fysports.app.widget.pulltorefresh.PullToRefreshWebView>
+
+</LinearLayout>

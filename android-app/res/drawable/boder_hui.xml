@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <stroke
+        android:width="0.5dp"
+        android:color="@color/home_solid" />
+
+    <padding
+        android:bottom="0.5dp"
+        android:left="0.5dip"
+        android:right="0.5dip"
+        android:top="0.5dip" />
+
+    <corners android:radius="0.5dip" />
+    <solid android:color="@color/home_solid" />
+
+</shape><!-- gradient對應顔色漸變 ；solid填充； stroke描邊；corner圓角；padding定義内容離邊界的距離； -->

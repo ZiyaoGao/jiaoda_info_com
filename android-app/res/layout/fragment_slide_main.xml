@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_main_ly"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.moudle.app.widget.LayersLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:clipToPadding="true"
+            android:fitsSystemWindows="true"
+            android:visibility="gone" />
+
+        <com.jeremyfeinstein.slidingmenu.lib.SlidingMenu xmlns:sliding="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/slidingmenulayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            sliding:behindOffset="100dp"
+            sliding:behindScrollScale="1"
+            sliding:fadeDegree="0.35"
+            sliding:fadeEnabled="true"
+            sliding:touchModeAbove="margin"
+            sliding:viewAbove="@layout/fragment_main"
+            sliding:viewBehind="@layout/fragment_slide" />
+    </com.moudle.app.widget.LayersLayout>
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_18"
+        android:background="@drawable/login_text_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/login_username"
+                style="@style/edit_style"
+                android:drawableLeft="@drawable/login_icon_account"
+                android:drawablePadding="@dimen/space_10"
+                android:hint="@string/login_phone_prompt"
+                android:maxLength="30"
+                android:textColor="@color/theme_black"
+                android:textColorHint="@color/login_edit_color" />
+
+            <Button
+                android:id="@+id/get_message"
+                android:layout_width="100dp"
+                android:layout_height="28dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/register_btn_blue"
+                android:text="@string/get_code"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/login_edit_color"></View>
+
+        <EditText
+            android:id="@+id/login_code"
+            style="@style/edit_style"
+            android:drawableLeft="@drawable/login_icon_password"
+            android:drawablePadding="@dimen/space_10"
+            android:hint="@string/register_verifycode_prompt"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:textColor="@color/theme_black"
+            android:textColorHint="@color/login_edit_color" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_15"
+        android:text="@string/reg_toast"
+        android:textSize="@dimen/space_18" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/login_button"
+        android:layout_width="fill_parent"
+        android:background="@drawable/btn_global_red"
+        android:text="@string/code_login" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_18"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收不到短信？使用" />
+
+        <TextView
+            android:id="@+id/yuyin_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="语音验证码"
+            android:textColor="@color/home_top" />
+    </LinearLayout>
+</LinearLayout>

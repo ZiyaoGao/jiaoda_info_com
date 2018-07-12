@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="horizontal"
+  	android:background="@color/full_transparent">
+
+    <LinearLayout
+        android:id="@+id/start_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_16"
+            android:textColor="@color/white"
+            android:text="@string/system_push_start_time"/>
+        <TimePicker
+            android:id="@+id/time_start_push"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/end_time"
+        android:layout_below="@id/start_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_16"
+            android:textColor="@color/white"
+            android:text="@string/system_push_end_time"/>
+        <TimePicker
+            android:id="@+id/time_end_push"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/time_start_push"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_below="@id/end_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="@dimen/timeset_btn_width"
+            android:layout_height="@dimen/timeset_btn_height"
+            android:layout_below="@id/time_start_push"
+            android:textColor="@color/white"
+            android:padding="@dimen/space_8"
+            android:textSize="@dimen/text_size_16"
+            android:text="@string/app_ok"/>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="@dimen/timeset_btn_width"
+            android:layout_height="@dimen/timeset_btn_height"
+            android:layout_alignTop="@id/btn_ok"
+            android:layout_toRightOf="@id/btn_ok"
+            android:layout_marginLeft="@dimen/space_5"
+            android:textColor="@color/white"
+            android:padding="@dimen/space_8"
+            android:textSize="@dimen/text_size_16"
+            android:text="@string/app_cancel"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

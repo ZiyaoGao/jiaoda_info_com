@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/graywhite">
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" />
+    <com.moudle.app.widget.zxing.view.ViewfinderView
+        android:id="@+id/scan_finderView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></com.moudle.app.widget.zxing.view.ViewfinderView>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/home_top"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="扫描"
+            android:textColor="@color/white"
+            android:textSize="@dimen/space_20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="领币"
+            android:textColor="@color/white"
+            android:textSize="@dimen/space_20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="领券"
+            android:textColor="@color/white"
+            android:textSize="@dimen/space_20" />
+    </LinearLayout>
+</RelativeLayout>
